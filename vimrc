@@ -10,5 +10,10 @@ set clipboard=unnamed
 
 " pathogen
 call pathogen#infect()
-syntax on
 filetype plugin indent on
+
+" colour scheme
+syntax enable
+set background=dark
+colorscheme jellybeans
+
