@@ -15,5 +15,5 @@ filetype plugin indent on
 " colour scheme
 syntax enable
 set background=dark
-colorscheme jellybeans
+colorscheme jellybeans_pda
 
