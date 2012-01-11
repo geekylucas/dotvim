@@ -51,6 +51,7 @@ colorscheme jellybeans_pda
 
 " ctrlp.vim
 let g:ctrlp_max_height = 16
+let g:ctrlp_working_path_mode = 2
 
 " powerline.vim
 let g:Powerline_symbols = 'fancy'
