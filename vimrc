@@ -8,11 +8,6 @@ set clipboard=unnamed
 call pathogen#infect()
 filetype plugin indent on
 
-" colour scheme
-syntax enable
-set background=dark
-colorscheme jellybeans_pda
-
 set backupdir=~/.vim/swap
 set directory=~/.vim/swap
 
@@ -49,5 +44,13 @@ noremap <leader>9 :s/:\(\S\+\)\s\+=>\s\+/\1: /g<cr>
 " short info tokens, short command line messages, no intro.
 set shortmess=atI
 
+" colour scheme
+syntax enable
+set background=dark
+colorscheme jellybeans_pda
+
 " ctrlp.vim
 let g:ctrlp_max_height = 16
+
+" powerline.vim
+let g:Powerline_symbols = 'fancy'
