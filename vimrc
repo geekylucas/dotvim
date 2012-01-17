@@ -30,6 +30,7 @@ set encoding=utf-8  " instead of latin1
 set cursorline      " make the cursor stand out
 set ttyfast         " smooth term redraw for fast connections
 set laststatus=2    " always show a status line in the last window
+set ttymouse=xterm2 " this makes mouse selection look as it should
 
 " make tabs and trailing spaces visible when requested
 set listchars=tab:>-,trail:-,eol:$
@@ -51,7 +52,7 @@ colorscheme jellybeans_pda
 
 " ctrlp.vim
 let g:ctrlp_max_height = 16
-let g:ctrlp_working_path_mode = 2
+let g:ctrlp_working_path_mode = 0
 
 " powerline.vim
 let g:Powerline_symbols = 'fancy'
