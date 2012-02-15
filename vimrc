@@ -53,6 +53,9 @@ colorscheme jellybeans_pda
 " ctrlp.vim
 let g:ctrlp_max_height = 16
 let g:ctrlp_working_path_mode = 0
+let g:ctrlp_custom_ignore = {
+  \ 'dir':  '\.git$\|\.hg$\|\.svn$\|/tmp/cache',
+  \ }
 
 " powerline.vim
 let g:Powerline_symbols = 'fancy'
