@@ -1,9 +1,6 @@
 " makes mouse selection work nice(r)
 set mouse=a
 
-" this means we don't have to worry about clipboard registers
-set clipboard=unnamed
-
 " pathogen
 call pathogen#infect()
 filetype plugin indent on
@@ -49,6 +46,9 @@ set shortmess=atI
 syntax enable
 set background=dark
 colorscheme jellybeans_pda
+
+" this means we don't have to worry about clipboard registers
+set clipboard=unnamed
 
 " ctrlp.vim
 let g:ctrlp_max_height = 16
