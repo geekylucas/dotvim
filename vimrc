@@ -59,3 +59,6 @@ let g:ctrlp_custom_ignore = {
 
 " powerline.vim
 let g:Powerline_symbols = 'fancy'
+
+" tagbar
+nmap <F8> :TagbarToggle<CR>
