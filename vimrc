@@ -59,3 +59,6 @@ let g:ctrlp_custom_ignore = {
 
 " powerline.vim
 let g:Powerline_symbols = 'fancy'
+
+" numbers.vim
+nnoremap <F3> :NumbersToggle<CR>
