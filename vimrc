@@ -62,3 +62,6 @@ let g:Powerline_symbols = 'fancy'
 
 " numbers.vim
 nnoremap <F3> :NumbersToggle<CR>
+
+" tagbar
+nmap <F8> :TagbarToggle<CR>
