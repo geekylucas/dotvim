@@ -28,6 +28,7 @@ set cursorline      " make the cursor stand out
 set ttyfast         " smooth term redraw for fast connections
 set laststatus=2    " always show a status line in the last window
 set ttymouse=xterm2 " this makes mouse selection look as it should
+set cc=79           " a visual market for 80 characters wide
 
 " make tabs and trailing spaces visible when requested
 set listchars=tab:>-,trail:-,eol:$
@@ -59,9 +60,6 @@ let g:ctrlp_custom_ignore = {
 
 " powerline.vim
 let g:Powerline_symbols = 'fancy'
-
-" numbers.vim
-nnoremap <F3> :NumbersToggle<CR>
 
 " tagbar
 nmap <F8> :TagbarToggle<CR>
