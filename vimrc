@@ -30,6 +30,16 @@ set laststatus=2    " always show a status line in the last window
 set ttymouse=xterm2 " this makes mouse selection look as it should
 set cc=79           " a visual market for 80 characters wide
 
+" vim split window handling
+" navigation
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
+" more natural spit opening (split to right & bottom)
+set splitbelow
+set splitright
+
 " make tabs and trailing spaces visible when requested
 set listchars=tab:>-,trail:-,eol:$
 nmap <silent> <leader>s :set nolist!<CR>
