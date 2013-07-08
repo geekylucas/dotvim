@@ -72,8 +72,8 @@ let g:ctrlp_custom_ignore = {
   \ 'dir':  '\.git$\|\.hg$\|\.svn$\|/tmp/cache',
   \ }
 
-" powerline.vim
-let g:Powerline_symbols = 'fancy'
-
 " tagbar
 nmap <F8> :TagbarToggle<CR>
+
+" airline settings
+let g:airline_theme='light'
