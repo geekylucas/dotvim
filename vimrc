@@ -40,6 +40,10 @@ nnoremap <C-H> <C-W><C-H>
 set splitbelow
 set splitright
 
+" shortcut for saving file, should save a few keystrokes
+map <C-s> <esc>:w<CR>
+imap <C-s> <esc>:w<CR>
+
 " make tabs and trailing spaces visible when requested
 set listchars=tab:>-,trail:-,eol:$
 nmap <silent> <leader>s :set nolist!<CR>
