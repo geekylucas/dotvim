@@ -69,7 +69,7 @@ set clipboard=unnamed
 let g:ctrlp_max_height = 16
 let g:ctrlp_working_path_mode = 0
 let g:ctrlp_custom_ignore = {
-  \ 'dir':  '\.git$\|\.hg$\|\.svn$\|/tmp/cache',
+  \ 'dir':  '\.git$\|\.hg$\|\.svn$\|/tmp/cache|\.DS_Store$',
   \ }
 
 " tagbar
