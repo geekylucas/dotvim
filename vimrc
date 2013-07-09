@@ -76,5 +76,6 @@ let g:ctrlp_custom_ignore = {
 nmap <F8> :TagbarToggle<CR>
 
 " airline settings
-let g:airline_theme='light'     
+let g:airline_theme='dark'
 let g:airline_enable_fugitive=1
+let g:airline_powerline_fonts=1
