@@ -72,9 +72,6 @@ let g:ctrlp_custom_ignore = {
   \ 'dir':  '\.git$\|\.hg$\|\.svn$\|/tmp/cache|\.DS_Store$',
   \ }
 
-" tagbar
-nmap <F8> :TagbarToggle<CR>
-
 " airline settings
 let g:airline_theme='dark'
 let g:airline_enable_fugitive=1
