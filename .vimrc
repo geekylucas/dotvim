@@ -36,6 +36,7 @@ nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
+
 " more natural spit opening (split to right & bottom)
 set splitbelow
 set splitright
