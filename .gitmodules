@@ -28,3 +28,6 @@
 [submodule "powerline-fonts"]
 	path = powerline-fonts
 	url = git@github.com:Lokaltog/powerline-fonts.git
+[submodule "bundle/puppet"]
+	path = bundle/puppet
+	url = git://github.com/rodjek/vim-puppet.git
