@@ -1,9 +1,34 @@
+set nocompatible              " be iMproved, required
+filetype off                  " required
+
+" set the runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+" let Vundle manage Vundle, required
+Plugin 'VundleVim/Vundle.vim'
+" golang
+Plugin 'fatih/vim-go'
+" ctrlp
+Plugin 'ctrlpvim/ctrlp.vim'
+" airline & themes
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
+" fugitive (a git wrapper)
+Plugin 'tpope/vim-fugitive'
+" ack
+Plugin 'mileszs/ack.vim'
+" colour schemes
+Plugin 'flazz/vim-colorschemes'
+
+" All of your Plugins must be added before the following line
+call vundle#end()            " required
+filetype plugin indent on    " required
+" To ignore plugin indent changes, instead use:
+"filetype plugin on
+"
 " makes mouse selection work nice(r)
 set mouse=a
-
-" pathogen
-call pathogen#infect()
-filetype plugin indent on
 
 set backupdir=~/.vim/swap
 set directory=~/.vim/swap
@@ -28,7 +53,7 @@ set cursorline      " make the cursor stand out
 set ttyfast         " smooth term redraw for fast connections
 set laststatus=2    " always show a status line in the last window
 set ttymouse=xterm2 " this makes mouse selection look as it should
-set cc=79           " a visual market for 80 characters wide
+"set cc=79           " a visual marker for 80 characters wide
 
 " vim split window handling
 " navigation
@@ -60,8 +85,8 @@ set shortmess=atI
 
 " colour scheme
 syntax enable
-set background=dark
-colorscheme jellybeans_pda
+" set background=dark
+colorscheme molokai
 
 " this means we don't have to worry about clipboard registers
 set clipboard=unnamed
@@ -73,7 +98,8 @@ let g:ctrlp_custom_ignore = {
   \ 'dir':  '\.git$\|\.hg$\|\.svn$\|/tmp/cache|\.DS_Store$\|/node_modules$',
   \ }
 
-" airline settings
-let g:airline_theme='dark'
+" airline
+" https://github.com/vim-airline/vim-airline/wiki/Screenshots
+let g:airline_theme='molokai'
 let g:airline_enable_fugitive=1
-let g:airline_powerline_fonts=1
+" let g:airline_powerline_fonts=1
