@@ -103,3 +103,12 @@ let g:ctrlp_custom_ignore = {
 let g:airline_theme='molokai'
 let g:airline_enable_fugitive=1
 " let g:airline_powerline_fonts=1
+
+" golang
+let g:go_highlight_functions = 1
+let g:go_highlight_methods = 1
+let g:go_highlight_fields = 1
+let g:go_highlight_types = 1
+let g:go_highlight_operators = 1
+let g:go_highlight_build_constraints = 1
+let g:go_fmt_command = "goimports"
